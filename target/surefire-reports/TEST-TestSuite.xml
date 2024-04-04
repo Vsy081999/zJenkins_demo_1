@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.003" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.002" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
@@ -26,7 +26,7 @@
     <property name="os.name" value="Windows 11"/>
     <property name="classworlds.conf" value="C:\Users\Vsy08\Downloads\apache-maven-3.9.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Vsy08\Downloads\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\HP\HP One Agent;C:\Users\Vsy08\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/Vsy08/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/Vsy08/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Vsy08\Downloads\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\HP\HP One Agent;C:\Users\Vsy08\AppData\Local\Microsoft\WindowsApps;;C:\windows\System32;;."/>
     <property name="maven.conf" value="C:\Users\Vsy08\Downloads\apache-maven-3.9.6/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
@@ -38,11 +38,12 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
+    <property name="filename" value="testng_suite.xml"/>
     <property name="user.name" value="Vsy08"/>
     <property name="java.class.path" value="C:\Users\Vsy08\Downloads\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dfilename=testng_suite.xml"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,6 +61,6 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="address" classname="zJenkins_demo.Test_2" time="0.003"/>
-  <testcase name="name" classname="zJenkins_demo.Test_2" time="0"/>
+  <testcase name="address" classname="zJenkins_demo.Test_1" time="0.002"/>
+  <testcase name="name" classname="zJenkins_demo.Test_1" time="0"/>
 </testsuite>

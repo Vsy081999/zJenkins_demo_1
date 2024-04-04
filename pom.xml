@@ -5,7 +5,7 @@
 	<groupId>Jenkins_demo</groupId>
 	<artifactId>Jenkins_demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	
 
 	<dependencies>
 		<dependency>
@@ -21,29 +21,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>5.6.2</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.1.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>5.2.4</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>5.2.4</version>
-		</dependency>
+				
 	</dependencies>
 	<build>
 		<plugins>
@@ -52,7 +30,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
-					<!-- put your configurations here -->
+
 				</configuration>
 			</plugin>
 			<plugin>
@@ -60,16 +38,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
-
 					<suiteXmlFiles>
-						<suiteXmlFile>testng_regression.xml</suiteXmlFile>
+						<suiteXmlFile>${filename}</suiteXmlFile>
 					</suiteXmlFiles>
-					<properties>
-						<property>
-							<name>usedefaultlistener</name>
-							<value>false</value>
-						</property>
-					</properties>
 				</configuration>
 			</plugin>
 		</plugins>
