@@ -8,7 +8,7 @@
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 	    <maven.compiler.target>17</maven.compiler.target>
-	    <suiteFile>testng_suite.xml</suiteFile>
+	    <suiteFile>testng_sanity.xml</suiteFile>
 	</properties>
 
 	<dependencies>
@@ -24,7 +24,6 @@
 			<version>7.6.0</version>
 			<scope>test</scope>
 		</dependency>
-
 				
 	</dependencies>
 	<build>
@@ -40,11 +39,12 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18.1</version>
+				<version>3.3.0</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>${suiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
+				
 				</configuration>
 			</plugin>
 		</plugins>

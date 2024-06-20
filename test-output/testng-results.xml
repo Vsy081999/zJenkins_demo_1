@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-04T17:25:05 IST" name="Suite" finished-at="2024-04-04T17:25:05 IST" duration-ms="54">
+  <suite started-at="2024-06-20T18:35:43 IST" name="Suite" finished-at="2024-06-20T18:35:43 IST" duration-ms="82">
     <groups>
     </groups>
-    <test started-at="2024-04-04T17:25:05 IST" name="Test" finished-at="2024-04-04T17:25:05 IST" duration-ms="54">
-      <class name="zJenkins_demo.Test_1">
-        <test-method signature="address()[pri:0, instance:zJenkins_demo.Test_1@1ed6388a]" started-at="2024-04-04T17:25:05 IST" name="address" finished-at="2024-04-04T17:25:05 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-06-20T18:35:43 IST" name="Test" finished-at="2024-06-20T18:35:43 IST" duration-ms="82">
+      <class name="zJenkins_demo.Test_2">
+        <test-method signature="address()[pri:0, instance:zJenkins_demo.Test_2@ffaa6af]" started-at="2024-06-20T18:35:43 IST" name="address" finished-at="2024-06-20T18:35:43 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- address -->
-        <test-method signature="name()[pri:0, instance:zJenkins_demo.Test_1@1ed6388a]" started-at="2024-04-04T17:25:05 IST" name="name" finished-at="2024-04-04T17:25:05 IST" duration-ms="0" status="PASS">
+        <test-method signature="name()[pri:0, instance:zJenkins_demo.Test_2@ffaa6af]" started-at="2024-06-20T18:35:43 IST" name="name" finished-at="2024-06-20T18:35:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- name -->
-      </class> <!-- zJenkins_demo.Test_1 -->
+      </class> <!-- zJenkins_demo.Test_2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
